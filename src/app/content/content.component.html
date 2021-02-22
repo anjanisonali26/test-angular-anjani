@@ -1,0 +1,125 @@
+<app-header></app-header>
+<div class="navigation">
+    <ul>
+        <li>
+            <img src="../../assets/images/xl4.png" alt="" width="290" height="160">
+        </li>
+        <li>
+            <a href="" class="icon-txt">
+                <span class="icon"><i class="fa fa-ticket" aria-hidden="true"></i></span>
+                <span class="title">
+                    All Ticket
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="" class="icon-txt">
+                <span class="icon"><i class="fa fa-ticket" aria-hidden="true"></i></span>
+                <span class="title">
+                    My Ticket
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="topnav-scn">
+    <h3 class="nav-text">Dashboard > All Ticket
+    </h3>
+</div>
+<div class="content">
+    <form class="form-inline">
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle mr-sm-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                filter by
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#">Ticket Name</a>
+                <a class="dropdown-item" href="#">Reporter</a>
+                <a class="dropdown-item" href="#">Create Date</a>
+                <a class="dropdown-item" href="#">Status</a>
+            </div>
+        </div>
+        <input class="form-control mr-sm-2" type="search" placeholder="input ticket number" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 mr-sm-2" type="submit">Search</button>
+        <button type="button" class="btn btn-danger mr-sm-2">Clear Filter</button>
+        <div class="tick">
+            <ul>
+                <a href="">
+                    <span class="icon"><i class="fa fa-ticket" aria-hidden="true"></i></span>
+                    <span class="title">
+                        New Ticket
+                    </span>
+                </a>
+            </ul>
+        </div>
+    </form>
+    <div class="container">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Ticket ID</th>
+                    <th scope="col">Ticket Name</th>
+                    <th scope="col">Reporter</th>
+                    <th scope="col">Create Date</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Activity</th>
+                    <th scope="col">Product Stream</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">ABC321</th>
+                    <td>Bronet Axis</td>
+                    <td>Anjani</td>
+                    <td>2020-04-12</td>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td>Initial Ticket</td>
+                    <td>AXIS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">ABC432</th>
+                    <td>Sisnet Axis</td>
+                    <td>Sonali</td>
+                    <td>2020-01-09</td>
+                    <td><i class="fa fa-check-circle"></i></td>
+                    <td>Approved by BRM</td>
+                    <td>PREPAID</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">ABC678</th>
+                    <td>Games Axis</td>
+                    <td>Salsa</td>
+                    <td>2020-12-13</td>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td>Waiting approval</td>
+                    <td>POSTPAID</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">ABC432</th>
+                    <td>Internet Axis</td>
+                    <td>Afrida</td>
+                    <td>2020-11-30</td>
+                    <td><i class="fa fa-check-circle"></i></td>
+                    <td>Initial Ticket</td>
+                    <td>VAS</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">ABC832</th>
+                    <td>Paket Axis</td>
+                    <td>Petrus</td>
+                    <td>2020-02-02</td>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td>Initial Ticket</td>
+                    <td>AXIS</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<app-footer></app-footer>

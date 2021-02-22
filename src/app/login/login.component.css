@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-xl {
+    margin: 12px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 51%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(42, 62, 146);
+    overflow-x: hidden;
+}
+
+.text-logo {
+    padding: 136px 56px;
+}
+
+.text-logo p {
+    font-family: Lucida Console, Courier, monospace;
+    color: rgb(35, 214, 226);
+}
+
+.btn {
+    margin-left: 450px;
+    margin-top: 170px;
+}
+
+button.btn.btn-primary {
+    box-shadow: -2px 4px 6px grey;
+    width: 47%;
+}

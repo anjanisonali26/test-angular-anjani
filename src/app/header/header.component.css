@@ -1,0 +1,49 @@
+img.img-btn {
+    margin-left: 271px;
+}
+
+nav.navbar.navbar-primary.bg-primary.justify-content-between {
+    margin-left: 290px;
+}
+
+.dropdown-menu {
+    position: inherit;
+}
+
+button.btn.btn-danger.dgr {
+    margin-left: 89px;
+    padding: 4px;
+}
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 94%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.toggle.active {
+    background: grey;
+}
+
+.toggle:before {
+    content: '\f0c9';
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 60%;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.toggle.active:before {
+    content: '\f00d';
+}
+
+h3#dropdownMenuLink {
+    font-family: 'FontAwesome';
+}
